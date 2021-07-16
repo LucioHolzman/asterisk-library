@@ -1,0 +1,19 @@
+.container-carousel {
+  width: calc((var(--width) * (var(--total))));
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel {
+    --primary-color: rgb(68, 68, 68);
+    width: var(--width);
+    height: var(--height);
+    transform-style: preserve-3d;
+    --perspective: calc(var(--total) * 200px);
+  transform: rotateX(-5deg);
+
+    perspective:var(--perspective);
+    transition: width .5s ease, height .5s ease, transform .5s ease;
+  }

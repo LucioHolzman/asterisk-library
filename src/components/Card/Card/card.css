@@ -1,0 +1,15 @@
+.card {
+    perspective: 3000px;
+  
+}
+.container-card {
+    position: relative;
+    z-index: 10;
+    width: 300px;
+    height: 400px;
+    border: 1px solid #ccc;
+    transform-style: preserve-3d;
+    transition:tranform 1.3s ease;
+    transform: rotateX(var(--axis-rotate-y)) rotateY(var(--axis-rotate-x));
+}
+

@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {AsteriskProvider} from './context';
 
 ReactDOM.render(
   <React.StrictMode>
+    <AsteriskProvider>
     <App />
+    </AsteriskProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
