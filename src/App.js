@@ -9,29 +9,28 @@ import {
   import {Card} from "./components/Card";
 function App() {
   const elements = [
-    "https://images3.alphacoders.com/990/990915.jpg",
-    "https://i.pinimg.com/originals/b9/75/7e/b9757e8f32831d4272985153d13e7f9e.png",
-    "https://fondosmil.com/fondo/53577.jpg",
-    "https://images2.alphacoders.com/766/thumb-1920-766963.png",
-    "https://www.wallpapertip.com/wmimgs/28-280824_jojo-bizarre-adventure-stardust-crusaders.png",
-    "https://coolwallpapers.me/picsup/5585728-jojo-wallpapers.jpg",
-    "https://images4.alphacoders.com/106/thumb-1920-1064307.png",
-    "https://images.alphacoders.com/981/thumb-1920-981968.jpg",
-    "https://cutewallpaper.org/21/jojo-hd-wallpaper/1920x1080-JoJo-Wallpapers-StardustCrusaders.png",
+    "https://images2.alphacoders.com/786/786780.jpg",
+    "https://images7.alphacoders.com/303/thumb-1920-303050.png",
+    "https://a-static.besthdwallpaper.com/irradia-el-brillo-a-traves-de-blue-nebulosa-del-espacio-papel-pintado-1920x1080-26662_48.jpg",
+    "https://www.10wallpaper.com/wallpaper/1920x1200/1303/planets_stars_nebula_universe-space_HD_Widescreen_Wallpapers_1920x1200.jpg",
+    "https://c.wallhere.com/photos/d1/6d/galaxy_space_space_art_planet_digital_art-252304.jpg!d",
+    "https://i.pinimg.com/originals/23/2a/05/232a057f04bcefe23d6845f53a1b42a6.jpg",
+    "https://c.wallhere.com/photos/57/ab/1600x1067_px_space_Space_Art_stars-654760.jpg!d",
+    "https://www.wallpapertip.com/wmimgs/9-93179_background-high-resolution-galaxy.jpg",
+    "https://c.wallhere.com/photos/4d/12/fantasy_art-193196.jpg!d",
   ];
   return (
     <>
       <Carousel 
       elements={elements}
-      initialPosition={0} 
       width={500} 
       height={250} 
       />
       <ArrowLeft className="arrow-left"/>
       <ArrowRight className="arrow-right"/>
       <Position initialPosition='v'/>
-    <div className="container">
-  {/* <Card>
+    {/* <div className="container">
+  <Card>
       <img className='card-image' src={elements[1]} alt=""/>
       <div className='card-content'>
         <h4 className='card-title'>Card title</h4>
@@ -39,40 +38,8 @@ function App() {
         <a href='#!' className='card-link'>This is a card with a link.</a>
       </div>
   </Card>
-  <Card>
-    <img className='card-image' src={elements[2]} alt=""/>
-    <div className='card-content'>
-      <h4 className='card-title'>Card title</h4>
-      <p className='card-text'>This is a card with multiple lines.</p>
-      <a href='#!' className='card-link'>This is a card with a link.</a>
-    </div>
-  </Card>
-  <Card>
-    <img className='card-image' src={elements[3]} alt=""/>
-    <div className='card-content'>
-      <h4 className='card-title'>Card title</h4>
-      <p className='card-text'>This is a card with multiple lines.</p>
-      <a href='#!' className='card-link'>This is a card with a link.</a>
-    </div>
-  </Card>
-  <Card>
-    <img className='card-image' src={elements[4]} alt=""/>
-    <div className='card-content'>
-      <h4 className='card-title'>Card title</h4>
-      <p className='card-text'>This is a card with multiple lines.</p>
-      <a href='#!' className='card-link'>This is a card with a link.</a>
-    </div>
-  </Card>
-  <Card>
-    <img className='card-image' src={elements[5]} alt=""/>
-    <div className='card-content'>
-      <h4 className='card-title'>Card title</h4>
-      <p className='card-text'>This is a card with multiple lines.</p>
-      <a href='#!' className='card-link'>This is a card with a link.</a>
-    </div>
-  </Card> */}
 
-  </div>
+  </div> */}
     </>
   );
 }

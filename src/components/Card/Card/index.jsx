@@ -14,8 +14,8 @@ export const Card = ({children}) => {
         e.stopPropagation();
         setTransition(false);
         console.log(e.nativeEvent.layerX / 2);
-        const x = e.nativeEvent.layerX;
-        const y = e.nativeEvent.layerY;
+        const x = window.innerWidth / 2 - e.clientX;
+        const y = window.innerHeight / 2 - e.clientY;
         setAxis({axisX: (x / 8), 
             axisY: (y / 8)});
     }
